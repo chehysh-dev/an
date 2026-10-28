@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android is an open-source, Linux-based operating system developed by Google for mobile devices such as smartphones, tablets, smart TVs, smartwatches, and other smart devices. It provides a complete software platform that includes the operating system, application framework, runtime environment, and built-in applications. Android allows developers to create powerful and user-friendly applications using programming languages such as Java and Kotlin. Android was originally developed by Android Inc. in 2003. In 2005, Google acquired Android Inc. and continued its development. In 2007, Google announced Android along with the Open Handset Alliance, and the first commercial Android smartphone was released in 2008. Android is based on the Linux kernel, which provides core system services such as memory management, process management, device drivers, networking, and security. Above the Linux kernel are native libraries and the Android Runtime (ART), which execute Android applications efficiently. The Application Framework provides APIs that developers use to build applications, while the top layer consists of system applications and user-installed applications. Android applications are built using different application components. An Activity represents a single screen with a user interface. A Service performs long-running operations in the background without direct user interaction. A Broadcast Receiver responds to system-wide broadcast messages, such as battery status or network changes. A Content Provider enables data sharing between different applications. Android applications are designed using XML layout files and Java or Kotlin code. The user interface is created using layouts such as LinearLayout, RelativeLayout, ConstraintLayout, TableLayout, FrameLayout, and ScrollView. UI components such as TextView, EditText, Button, ImageView, CheckBox, RadioButton, and Spinner are placed inside these layouts to create interactive screens."
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:lineSpacingExtra="6dp"
+            android:paddingBottom="20dp" />
+
+    </LinearLayout>
+</ScrollView>
